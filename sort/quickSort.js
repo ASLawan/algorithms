@@ -7,6 +7,9 @@
 // this method makes use of recursion
 // do not forget the base condition
 
+//BigO worst case: O(n^2)
+//BigO ave case: O(logn)
+
 const quickSort = (arr) => {
   // base condition
   if (arr.length < 2) {
