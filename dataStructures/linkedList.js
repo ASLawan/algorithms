@@ -7,7 +7,7 @@ class Node {
 
 class LinkedList {
   constructor() {
-    this.head = null;
+    this.head = null; // pointer to the first node
     this.size = 0;
   }
 
@@ -205,55 +205,55 @@ console.log(
 list.reverse();
 list.print();
 
-// console.log(
-//   "=============================== APPENDING ============================"
-// );
-// console.log("List is empty: ", list.isEmpty());
-// console.log("List size: ", list.getSize());
-// list.print();
-// list.append(10);
-// list.append(20);
-// list.append(30);
-// list.append(40);
+console.log(
+  "=============================== APPENDING ============================"
+);
+console.log("List is empty: ", list.isEmpty());
+console.log("List size: ", list.getSize());
+list.print();
+list.append(10);
+list.append(20);
+list.append(30);
+list.append(40);
 
-// console.log("List is empty: ", list.isEmpty());
-// console.log("List size: ", list.getSize());
-// list.print();
+console.log("List is empty: ", list.isEmpty());
+console.log("List size: ", list.getSize());
+list.print();
 
-// console.log(
-//   "=============================== INSERTING ============================"
-// );
+console.log(
+  "=============================== INSERTING ============================"
+);
 
-// console.log("Inserting 50 at the 4 index");
-// list.insert(50, 4);
-// list.print();
-// console.log("List size: ", list.getSize());
-// console.log(" ");
-// console.log("Inserting 60 at the beginning");
-// list.insert(60, 0);
-// list.print();
-// console.log("List size: ", list.getSize());
+console.log("Inserting 50 at the 4 index");
+list.insert(50, 4);
+list.print();
+console.log("List size: ", list.getSize());
+console.log(" ");
+console.log("Inserting 60 at the beginning");
+list.insert(60, 0);
+list.print();
+console.log("List size: ", list.getSize());
 
-// console.log(
-//   "=============================== DELETING ============================"
-// );
+console.log(
+  "=============================== DELETING ============================"
+);
 
-// console.log("Deleting node at the 4 index");
-// list.deleteByIndex(5);
-// list.print();
-// console.log("List size: ", list.getSize());
-// console.log(" ");
-// console.log("Deleting node at the beginning");
-// list.deleteByIndex(0);
-// list.print();
-// console.log("List size: ", list.getSize());
+console.log("Deleting node at the 4 index");
+list.deleteByIndex(5);
+list.print();
+console.log("List size: ", list.getSize());
+console.log(" ");
+console.log("Deleting node at the beginning");
+list.deleteByIndex(0);
+list.print();
+console.log("List size: ", list.getSize());
 
-// console.log(
-//   "=============================== FIND NODE BY VALUE ============================"
-// );
+console.log(
+  "=============================== FIND NODE BY VALUE ============================"
+);
 
-// console.log("Find node with value 30");
-// console.log(list.find(30));
-// console.log(" ");
-// console.log("Find node with value 60");
-// console.log(list.find(60));
+console.log("Find node with value 30");
+console.log(list.find(30));
+console.log(" ");
+console.log("Find node with value 60");
+console.log(list.find(60));
